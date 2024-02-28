@@ -1,0 +1,10 @@
+Git Reset:
+    Git reset is mainly used to remove "commit" command while after commited file.
+  git reset- shows the file is staged or unstaged  
+
+  1)git reset --soft HEAD~ :-remove "commit" Command.we can chek it using ( git log- to see the latest update in the cmd like commit,add etc  and Git status)
+
+  2)git reset --mixed :- git reset- (used to unstage the file)
+    By default it only mixed.
+
+  3)git reset --hard HEAD~:- it is also used to remove commit command.go to previous commit .if we check it in the file lastest updated one could be removed.it goes to previous commit.(if we change 3 different files and commit them and then by using gir reset --haed HEAD(1.2.3) based on the value it remove the commit of the file)
